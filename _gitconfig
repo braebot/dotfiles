@@ -19,7 +19,7 @@
   ui = true
 [core]
   whitespace=nowarn
-  excludesfile = /Users/brent/.gitignore
+  excludesfile = ~/.gitignore
   autocrlf = input
   editor = /usr/local/bin/subl -w -n
 [alias]
@@ -36,6 +36,10 @@
   pep8-ignore = E501,E261,E302
   pep8-exclude = ^.*/migrations/.*.py
 [user]
-	name = Brent Fitzgerald
+	name = Jeff Brateman
 [credential]
 	helper = osxkeychain
+[fetch]
+	recurseSubmodules = yes
+[push]
+	default = simple
