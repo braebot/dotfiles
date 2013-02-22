@@ -1,5 +1,5 @@
 This is yet another dotfiles repo.
 
-The `install.sh` is based on the one in https://github.com/sontek/dotfiles.
+The `install.sh` is based on the one in https://github.com/sontek/dotfiles.  Just run it to simlink everything to your home dir.  It DOES create backups of things it replaces. 
 
-I'll be adding additional configurations as I have time.
+This is up to date, and awesome.
