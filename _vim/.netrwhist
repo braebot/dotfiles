@@ -1,2 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =0
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/Users/jbrateman/workspace/robo-zebra/MPL/.externalToolBuilders'
+let g:netrw_dirhist_2='/Library/Tomcat/apache-tomcat-6.0.37/conf/catalina'
+let g:netrw_dirhist_3='/Users/jbrateman/workspace/robo-zebra'
+let g:netrw_dirhist_4='/Users/jbrateman/workspace/robo-zebra-hotfix/androidSDK-tests/src/com/paypal/android/sdk/development'
