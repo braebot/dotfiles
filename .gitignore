@@ -2,3 +2,5 @@ gitconfig
 *.swp
 .DS_Store
 *~
+Thumbs.db
+
