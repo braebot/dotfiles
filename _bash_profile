@@ -55,13 +55,10 @@ export VIRTUALENV_DISTRIBUTE=true
 export PATH=/usr/local/cuda/bin:$PATH
 export LD_LIBRARY_PATH=/usr/local/cuda/lib64:$LD_LIBRARY_PATH
 
-### TextMate bits and pieces
-export TM_PYCHECKER=/usr/local/share/python/pyflakes
-export TM_RST2HTML="/usr/local/Cellar/python2.6/2.6.5/bin/python /usr/local/Cellar/python2.6/2.6.5/bin/rst2html.py"
-
 ### Android Development
 export ANDROID_SDK=~/android/adt-bundle-mac-x86_64/sdk
-export ANDROID_NDK=~/android/android-ndk-r8d
+export ANDROID_HOME=$ANDROID_SDK
+export ANDROID_NDK=~/android/android-ndk-r9
 export PATH=$ANDROID_NDK:$ANDROID_SDK/tools:$ANDROID_SDK/platform-tools:$PATH
 
 ### C/C++
