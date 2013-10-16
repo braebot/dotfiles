@@ -19,7 +19,7 @@
   ui = true
 [core]
   whitespace=nowarn
-  excludesfile = ~/.gitignore
+	excludesfile = /Users/jbrateman/.gitignore
   autocrlf = input
   editor = /usr/local/bin/subl -w -n
 [alias]
@@ -37,9 +37,25 @@
   pep8-exclude = ^.*/migrations/.*.py
 [user]
 	name = Jeff Brateman
+	email = jbrateman@paypal.com
 [credential]
 	helper = osxkeychain
 [fetch]
 	recurseSubmodules = yes
 [push]
 	default = simple
+[difftool "sourcetree"]
+	cmd = /Applications/DiffMerge.app/Contents/MacOS/DiffMerge --nosplash \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/DiffMerge.app/Contents/MacOS/DiffMerge --merge --result=\"$MERGED\" \"$LOCAL\" \"$BASE\" \"$REMOTE\"
+	trustExitCode = true
+[diff]
+	tool = diffmerge
+[difftool "diffmerge"]
+	cmd = diffmerge \"$LOCAL\" \"$REMOTE\"
+[merge]
+	tool = diffmerge
+[mergetool "diffmerge"]
+	cmd = "diffmerge --merge --result=\"$MERGED\" \"$LOCAL\" \"$(if test -f \"$BASE\"; then echo \"$BASE\"; else echo \"$LOCAL\"; fi)\" \"$REMOTE\""
+	trustExitCode = true
