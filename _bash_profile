@@ -67,13 +67,10 @@ export CMAKE_C_COMPILER_ENV_VAR=CC
 export CMAKE_CXX_COMPILER_ENV_VAR=CXX
 
 #git bash autocomplete
-if [ -f `brew --prefix`/etc/bash_completion.d/git-completion.bash ]; then
-  . `brew --prefix`/etc/bash_completion.d/git-completion.bash
-fi
+. ./.git-completion.sh
 
-if [ -f `brew --prefix`/etc/bash_completion.d/git-prompt.sh ]; then
-	. `brew --prefix`/etc/bash_completion.d/git-prompt.sh
-fi
+#command prompt
+PS1='[\D{+%d.%m.%g} \t \W$(__git_ps1 " (%s)")]\$ '
 
 # workon home || mkvirtualenv home && workon home
 
