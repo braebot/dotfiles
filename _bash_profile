@@ -70,7 +70,7 @@ export CMAKE_CXX_COMPILER_ENV_VAR=CXX
 . ./.git-completion.sh
 
 #command prompt
-PS1='[\D{+%d.%m.%g} \t \W$(__git_ps1 " (%s)")]\$ '
+PS1='[\D{+%g.%m.%d} \t \W$(__git_ps1 " (%s)")]\$ '
 
 # workon home || mkvirtualenv home && workon home
 
