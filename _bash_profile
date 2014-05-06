@@ -16,6 +16,8 @@ alias gc='git commit'
 alias gd='git diff'
 alias gl='git log --stat'
 alias gf='git fetch'
+alias gg='git log --graph'
+alias ggo='git log --graph --oneline'
 
 ### Path!
 export PATH=/usr/local/apache2/bin:/usr/local/mysql/bin:$PATH
