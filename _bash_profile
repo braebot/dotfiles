@@ -63,6 +63,7 @@ export ANDROID_SDK=~/android/adt-bundle-mac-x86_64/sdk
 export ANDROID_HOME=$ANDROID_SDK
 export ANDROID_NDK=~/android/android-ndk-r9
 export PATH=$ANDROID_NDK:$ANDROID_SDK/tools:$ANDROID_SDK/platform-tools:$PATH
+alias kt='keytool -genkey -v  -keypass abc123 -storepass abc123 -keystore example.keystore -alias example-alias -keyalg RSA -keysize 2048 -validity 10000 -dname "CN=company name, OU=org unit 1, O=org 1, L=Austin, S=TX, C=US"'
 
 ### C/C++
 export CMAKE_C_COMPILER_ENV_VAR=CC
