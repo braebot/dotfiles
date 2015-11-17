@@ -19,7 +19,7 @@
   ui = true
 [core]
   whitespace=nowarn
-	excludesfile = /Users/jbrateman/.gitignore
+	excludesfile = /Users/brateman/.gitignore
   autocrlf = input
   editor = /usr/local/bin/subl -w -n
 [alias]
