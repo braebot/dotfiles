@@ -25,8 +25,8 @@ export PATH=/Applications/eclipse:$PATH
 export PATH=.:~/bin:/usr/local/bin:/usr/local/sbin:/usr/local/Cellar/ruby/1.8.7-p249/bin:$PATH
 
 # Java!
-#export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home"
-export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/"
+export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/"
+
 export PATH=$JAVA_HOME/bin:$PATH
 export CATALINA_HOME=/Library/Tomcat/Home 
 
